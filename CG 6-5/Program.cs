@@ -44,26 +44,26 @@ namespace CG_6_5
 
             // set paramaters between dates that determine the users sign and horoscope
             //I used the && to say if it is this month and also less than or equal to this particular day
-            if (months == 03 && days <= 21) 
+            if (months == 03 && days <= 21)
             {
                 horoscope = " You are an Aries. \n You will win a big race soon";
             }
 
-            else if (months == 04 && days <= 18) 
+            else if (months == 04 && days <= 18)
             {
                 horoscope = " You are an Aries. \n You will win a big race soon";
             }
 
-            else if (months == 04 && days <= 20) 
+            else if (months == 04 && days <= 20)
             {
                 horoscope = " You are a Taurus. \n You will win on a scratcher ticket soon.";
             }
 
-            else if (months == 05 && days <= 20) 
+            else if (months == 05 && days <= 20)
             {
                 horoscope = "You're a Taurs. \n You will win on a scratcher ticket soon.";
             }
-            else if (months == 05 && days <= 21) 
+            else if (months == 05 && days <= 21)
             {
                 horoscope = "You are a Gemini. \n You will get a new job this year.";
             }
@@ -139,8 +139,17 @@ namespace CG_6_5
             {
                 horoscope = "You are an Aquarius. \n You will take a grand vacation.";
             }
-        //end all options and output the users horocope to them. 
-            Console.WriteLine( "You are " + horoscope);
+            else if (months == 02 && days <= 19) 
+            {
+                horoscope = "You are a Pices. \n You will find gold";
+            }
+            else if (months == 03 && days <= 20)
+            {
+                horoscope = "You are a Pices. \n You will find gold";
+            }
+
+            //end all options and output the users horocope to them. 
+            Console.WriteLine(horoscope);
             Console.ReadLine();
 
         }
