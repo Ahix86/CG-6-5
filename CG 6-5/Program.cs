@@ -9,7 +9,7 @@ namespace CG_6_5
             Console.WriteLine("Pease enter your birthday in MM/DD/YYYY format");
             DateTime birthday = DateTime.Parse(Console.ReadLine());
 
-            //determine day of week birthdate is using the ToString method and print it to console
+            //determine day of week birthdate isby pulling it from the given date and print it to console
             Console.WriteLine("You were born on a " + birthday.DayOfWeek);
 
             DateTime currentdate = DateTime.Now;
