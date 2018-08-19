@@ -16,7 +16,8 @@ namespace CG_6_5
             //assign variable name and type to current date
 
             DateTime nextBDay = new DateTime(currentdate.Year, birthday.Month, birthday.Day);
-            //create new datetime variable for birthday in current year to use in if/else if statements below
+            //create new variable for the upcoming birthday
+            
 
             //set the if statements to determine if their birthday has already come or not and output the slected statement answer
      
