@@ -23,7 +23,7 @@ namespace CG_6_5
      
             if (birthday.DayOfYear >= currentdate.DayOfYear)
             {
-                Console.WriteLine("Your next birthday will be on a {0}.", nextBDay.ToString("dddd"));
+                Console.WriteLine("Your next birthday will be on a " + nextBDay.DayOfWeek);
             }
 
 
