@@ -18,17 +18,15 @@ namespace CG_6_5
             DateTime nextBDay = new DateTime(currentdate.Year, birthday.Month, birthday.Day);
             //create new datetime variable for birthday in current year to use in if/else if statements below
 
-            //if day of year of your birthday is greater than or equal to current day of year,
-            //the day of week will be determined by using current year
-            //print day of the week to console using ToString
+            //set the if statements to determine if their birthday has already come or not and output the slected statement answer
+     
             if (birthday.DayOfYear >= currentdate.DayOfYear)
             {
                 Console.WriteLine("Your next birthday will be on a {0}.", nextBDay.ToString("dddd"));
             }
 
 
-            //if day of year of your birthday has happened already this year, add 1 year to date to get correct day
-            //print to console using ToString
+            //if it has already been their birthday add a year
             else if (birthday.DayOfYear < currentdate.DayOfYear)
             {
                 DateTime nextBDdayofwk = nextBDay.AddYears(1);
